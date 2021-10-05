@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(241, 206, 153);
+}
+
+.text1{
+    font-size: 20px;
+}
+
+.nav{
+    list-style-type: none; 
+    background-color:rgb(241, 206, 153);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+ul.nav li{
+    float: left;
+}
+
+.title{
+    text-align: center;
+    font-size: 70px;
+}
+
+
+.active{
+    color:rgb(245, 225, 111)
+}
+
+
+
+ul.nav li{
+    display: block;
+    padding: 10px 20px;
+    color:black;
+    text-decoration: none;
+}
+
+ul.nav li a:hover{
+    background-color: rgb(100, 206, 248);
+    color:burlywood
+}
