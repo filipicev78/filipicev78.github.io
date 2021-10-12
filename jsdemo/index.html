@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JS Demo</title>
+</head>
+<body>
+
+<h1>time to learn javascript!</h1>
+<h2>we do onclick events and alerts on a anchor</h2>
+<a href="https://lightroom.adobe.com/shares/2e8ac99a4bc44693b28b6ccc1d2fda7d/albums/11511dab5f5e4d359df04d80b35b7512/assets/c4375908b7af4251b4541cb2f2659c03" target="_blank" onclick="alert('Warning. You are navigating away from my site!')">Go to my frisbee team photos</a>
+
+<hr>
+<h2> html javascript with a button</h2>
+<p>What is my secret identity</p>
+<p id="secret"></p>
+<button onclick="document.getElementById('secret').innerHTML='John dally'; document.getElementById('secret').style.display='block'">Hide!</button>
+
+<button onclick="document.getElementById('secret').style.display='none'">Reveal!</button>
+
+<hr>
+<h2>How do we change an image with javascript</h2>
+<img src="images/pic_bulboff.jpeg" alt="lightbulb " id="my Image">
+<button onclick="document.getElementById( 'my Image').src='images/pic_bulbon.jpeg' ">Turn on the light bulb</button>
+
+<button onclick="document.getElementById( 'myImage').src='images/pic_bulboff.jpeg' ">Turn off the lightbulb</button>
+<hr>
+<h2> css styles with a button</h2>
+<p id="john">Hi.  am john</p>
+<button onclick="document.getElementById( 'john').style.color='blue' ;document.getElementById( 'john').style.fontSize='20px' ">smaller</button>
+
+<button onclick="document.getElementById( 'john').style.color='red' ; document.getElementById( 'john').style.fontSize='60px' ">bigger</button>
+
+<hr>
+<h2>how do we do user input</h2>
+<button onclick="askName(); ">What is your name</button>
+<p id="ask-name"></p>
+<hr>
+<div id="para">
+    <h2>a paragrpah</h2>
+    <p> Random stuff </p>
+    <p> pargrpah things</p>
+
+</div>
+<button onclick="document.getElementById( 'para').style.fontSize='20px' ">smaller</button>
+
+<button onclick=" document.getElementById( 'para').style.fontSize='50px' ">bigger</button>
+
+
+
+<script>
+function askName() {
+let nameParagraph = document.getElementById("ask-name");
+let name = prompt("what is ur name");
+
+if (name === "filip") {
+nameParagraph.innerHTML = "sup me ";
+} else {
+nameParagraph.innerHTML = "sup" + name + " how ya doin";
+}
+}
+</script>
+</body>
+</html>
