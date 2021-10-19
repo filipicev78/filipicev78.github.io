@@ -26,8 +26,8 @@ ul.nav li a {
 }
 
 ul.nav li a:hover {
-    background-color: blueviolet;
-    color: burlywood
+    background-color: darkblue;
+    color: burlywood;
 }
 
 .active {
