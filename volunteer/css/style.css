@@ -1,51 +1,68 @@
-body{
+body {
     background-color: rgba(74, 243, 245, 1);
 }
 
-.nav{
-    list-style-type: none; 
-    background-color:rgba(63, 148, 250, 1);
+.nav {
+    list-style-type: none;
+    background-color: rgba(63, 148, 250, 1);
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
+
 /* list itmes insideunordred lists w class nav */
 
-ul.nav li{
+ul.nav li {
     float: left;
-    
 }
 
-
-ul.nav li a{
+ul.nav li a {
     display: block;
     padding: 8px 29px;
-    color:black;
+    color: black;
     text-decoration: none;
     font-size: 25px;
 }
 
-ul.nav li a:hover{
+ul.nav li a:hover {
     background-color: blueviolet;
-    color:burlywood
+    color: burlywood
 }
 
-.active{
-    color:blue
+.active {
+    color: blue
 }
-.footer {
+
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:rgba(74, 243, 245, 1);
+    background-color: rgba(74, 243, 245, 1);
     color: black;
     text-align: center;
+}
+
 
 /* Color Theme Swatches in RGBA */
-.volunteer-1-rgba { color: rgba(63, 148, 250, 1); }
-.volunteer-2-rgba { color: rgba(55, 175, 222, 1); }
-.volunteer-3-rgba { color: rgba(74, 243, 245, 1); }
-.volunteer-4-rgba { color: rgba(55, 222, 178, 1); }
-.volunteer-5-rgba { color: rgba(63, 250, 148, 1); }
+
+.volunteer-1-rgba {
+    color: rgba(63, 148, 250, 1);
+}
+
+.volunteer-2-rgba {
+    color: rgba(55, 175, 222, 1);
+}
+
+.volunteer-3-rgba {
+    color: rgba(74, 243, 245, 1);
+}
+
+.volunteer-4-rgba {
+    color: rgba(55, 222, 178, 1);
+}
+
+.volunteer-5-rgba {
+    color: rgba(63, 250, 148, 1);
+}
