@@ -47,23 +47,25 @@ footer {
 div {
     margin-left: 100;
     margin-right: 100;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     font-size: 75px;
+    text-align: center;
 }
 
 h2 {
     font-size: 50px;
+    text-align: center;
 }
 
 p {
     font-size: 25px;
+    text-align: left;
 }
 
-
+`
 /* Color Theme Swatches in RGBA */
 
 .volunteer-1-rgba {
