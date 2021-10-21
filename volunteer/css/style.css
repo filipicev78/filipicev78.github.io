@@ -26,8 +26,8 @@ ul.nav li a {
 }
 
 ul.nav li a:hover {
-    background-color: blueviolet;
-    color: burlywood
+    background-color: darkblue;
+    color: burlywood;
 }
 
 .active {
@@ -42,6 +42,25 @@ footer {
     background-color: rgba(74, 243, 245, 1);
     color: black;
     text-align: center;
+}
+
+div {
+    margin-left: 100;
+    margin-right: 100;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
 }
 
 
