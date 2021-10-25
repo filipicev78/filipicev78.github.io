@@ -9,19 +9,14 @@ body {
     padding: 0;
     overflow: hidden;
 }
+
 .fimage {
-    
-    float:right;
+    float: right;
+    text-align: right;
     width: 55%;
     object-fit: cover;
     margin-left: 15px;
-    
-
-
-
-
 }
-
 
 
 /* list itmes insideunordred lists w class nav */
@@ -38,7 +33,6 @@ ul.nav li a {
     font-size: 25px;
 }
 
-
 ul.nav li a:hover {
     background-color: darkblue;
     color: burlywood;
@@ -52,9 +46,8 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    
     width: 100%;
-    background-color: rgba(74, 243, 245, 1);
+    background-color: rgb(18, 234, 238);
     color: black;
     text-align: center;
 }
@@ -62,16 +55,17 @@ footer {
 div {
     margin-left: 100;
     margin-right: 100;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     font-size: 75px;
+    text-align: center;
 }
 
 h2 {
     font-size: 50px;
+    text-align: center;
 }
 
 p {
