@@ -39,7 +39,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(74, 243, 245, 1);
+    background-color: rgb(18, 234, 238);
     color: black;
     text-align: center;
 }
@@ -62,7 +62,6 @@ h2 {
 
 p {
     font-size: 25px;
-    text-align: left;
 }
 
 
