@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+      table, th, td {
+  border: 2.2px solid black;
+  border-collapse: collapse;
+  /* new feature of table borders */
+}  
+    </style>
 </head>
 
 <body>
@@ -26,13 +34,79 @@
 
 </body>
 <div><h1> HOMEPAGE</h1></div>
-<p>  <img class="fimage" src="images/duthie1.jpg" alt="">
-    text after the image abaaahahababababbaba;lkdsjfhjdh
-    ext before the image 122433535353535353535
+<p>  <img class="fimage" src="images/homevolunteer.jpg" alt="">
+    Volunteering is a very important  and fulfilling part of peoples lives. It is integral and helping the community and helping yourself. This page is made to help people, specifically  in the King County area volunteer. Often when people want to start volunteering they don’t know where to start. The goal of this page is to help with that. We have focused on 6 types of volunteering; tutoring , park cleanups , Hospital volunteering , animal shelters, park cleanups, and finally food drives. We hope everyone can find volunteer work that works for them !!
+
+ 
 </p>
 
+<h2> Brief descriptions of the types of volunteering!</h2>
+<table  > 
+    <tr>
+        <td><p>Tutoring</p></td>
+        <td><p> Teaching kids Academic material in 1 on1 sessions</p></td>
+        
+    </tr>
+    <tr>
+        <td><p>Biking trails </p></td>
+        <td><p> Help clean up and maintain free mountain biking trails </p></td>
+        
+    </tr>
+    <tr>
+        <td><p> Food drives </p></td>
+        <td><p> Help out in collecting and giving out food to people in need </p></td>
+        
+    </tr>
+    <tr>
+        <td><p> Hospital </p></td>
+        <td><p> Help sick people get and feel better</p></td>
+        
+    </tr>
+    <tr>
+        <td><p>Biking trails </p></td>
+        <td><p> Help clean up and maintain free mountain biking trails </p></td>
+    </tr>
+    <tr>
+        <td><p> Animal shelters</p></td>
+        <td><p> Help protect domestic animals find happy homes</p></td>
+    </tr>
+    <tr>
+        <td><p> Park cleanup </p></td>
+        <td><p> Help cleanup and maintain our local parks</p></td>
+        
+    </tr>
+    
+    </table>
+
+    <!-- new feature of padding -->
+
+
+    <iframe width="560" height="315" style = "padding-top: 70px; padding-bottom: 20px;" src="https://www.youtube.com/embed/uGtFvOSmZ8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p  class = "red-text">Do you want to know about one more important volunteering related thing </p>
+<p style ="font-size: larger;" id="secret"></p>
+<button onclick="document.getElementById('secret').innerHTML=' Donating!! Giving money is crucial to helping volunteering organizations run, specifically for people who want to help but dont have time'; document.getElementById('secret').style.display='block'">YES</button>
+
+
+<h2> Volunteering Hour game</h2>
+<button onclick="askHours(); "> How many hours a week do you watch TV?</button>
+<p id="ask-hours"></p>
+
+<script>
+    function askHours() {
+    let nameParagraph = document.getElementById("ask-hours");
+    let hours = prompt("How many hours a week do you watch tv");
+    
+    if (hours === "0") {
+    nameParagraph.innerHTML = "Good work!";
+    } else {
+    nameParagraph.innerHTML = "You should spend " + hours/2 + " hours volunteering a week since you spend double that watching TV";
+    }
+    }
+    </script>
+
 <footer>
-    <p> FILIP ICEV</p>
+    <p>FILIP ICEV</p>
 </footer>
 
 </html>

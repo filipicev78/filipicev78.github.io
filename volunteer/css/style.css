@@ -100,3 +100,9 @@ p {
 .volunteer-5-rgba {
     color: rgba(63, 250, 148, 1);
 }
+
+.red-text{
+    color:red;
+    font-size: larger;
+}
+
