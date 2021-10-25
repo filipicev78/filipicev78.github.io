@@ -9,6 +9,19 @@ body {
     padding: 0;
     overflow: hidden;
 }
+.fimage {
+    
+    float:right;
+    width: 55%;
+    object-fit: cover;
+    margin-left: 15px;
+    
+
+
+
+
+}
+
 
 
 /* list itmes insideunordred lists w class nav */
@@ -25,6 +38,7 @@ ul.nav li a {
     font-size: 25px;
 }
 
+
 ul.nav li a:hover {
     background-color: darkblue;
     color: burlywood;
@@ -38,6 +52,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    
     width: 100%;
     background-color: rgb(18, 234, 238);
     color: black;
