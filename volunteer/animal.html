@@ -7,6 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animal Shelters</title>
     <link rel="stylesheet" href="css/style.css">
+    <!--internal css-->
+    <style>
+        th {
+            text-decoration: underline;
+            font-size: 12pt;
+            margin-bottom: 2px;
+            font-size: large;
+            text-align: left;
+        }
+        
+        .fancy {
+            font-weight: bold;
+            font-size: 12pt;
+            margin-bottom: 5px;
+            font-size: large;
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,7 +37,61 @@
         <li><a href="animal.html"> Animal Shelters</a></li>
         <li><a href="park.html"> Park Cleanup </a></li>
     </ul>
-    <h1>Welcome. Here I will talk about how to volunteer to help animal shelters.</h1>
+    <h1>Animal Help</h1>
+    <p><img class="fimage" src="images/animal1.jpg" alt="animals with King County logo"> Welcome to the website. Here, I will talk about how to help animals within the King County area. </p>
+    <hr>
+    <h3>The three most effective ways to help animals are by donating time, money, and licencing your pets.</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Donating time:</h2>
+    <p>Donating time is pretty straightforward. There are two great organizations that need your help in the King County area. To learn more, click the buttons for each of the organizations below. </p>
+    <p id="secretTime" style="display:block;"></p>
+    <!--js buttons-->
+    <button onclick="document.getElementById('secretTime').innerHTML='Seattle.gov: Work to give back to animals, but you have to be at least 18 years old to volunteer. You can make a difference and help Seattle.gov to save thousands of animals each year.'; document.getElementById('secretTime').style.display='block'">Seattle.gov</button>
+    <button onclick="document.getElementById('secretTime').style.display='none'">Hide information</button>
+    <br>
+    <p id="secretRaskc" style="display:block;"></p>
+    <button onclick="document.getElementById('secretRaskc').innerHTML='RASKC: Work to help RASKC to volunteer. Due to covid, they are closed temporarily, but you can still adopt an animal, which takes a lot of time and helps tremendously because it gives them a stable home'; document.getElementById('secretRaskc').style.display='block'">RASKC (Regional Animal Service of King County</button>
+    <button onclick="document.getElementById('secretRaskc').style.display='none'">Hide information</button>
+    <h2>Donating money:</h2>
+    <p>If you do not have the time to volunteer for the program, donating money is also a great way to get involved and help the amazing organizations that help save animals. Below are the two organizations mentioned before that would both greatly appreciate
+        whatever money you have to give to them.</p>
+    <table style="border: 1px solid white;width:300px">
+        <tr>
+            <th></th>
+            <th>Organization Name</th>
+        </tr>
+        <tr>
+            <!--inline css-->
+            <td class="fancy" style="text-decoration: underline;">Seattle Humane</td>
+            <!--href links to new page-->
+            <td>Click <a href="https://secure3.convio.net/shs/site/Donation2?df_id=4684&4684.donation=form1&mfc_pref=T&s_src=21fallmatch&s_subsrc=LB&utm_source=google&utm_medium=cpc&utm_campaign=iconseptember&gclid=Cj0KCQjwiNSLBhCPARIsAKNS4_ftQyHUSAQ3KGR2V31Pt5_B90MgVjVWIYRYO9yJXQ5jBru6aF-guNEaAi7oEALw_wcB"
+                    target="blank"> here</a> for website</td>
+        </tr>
+        <tr>
+            <!--new feature: font-family-->
+            <td class="fancy" style="text-decoration: underline; font-family: courier;">RASKC</td>
+            <td>Click <a href="https://licensepet.com/wl3/don/kingwd/1022" target="blank"> here</a> for website</td>
+        </tr>
+    </table>
+    <h2>Licencing pets:</h2>
+    <p>Below is a video on the important of licencing your pets.</p>
+    <!--video-->
+    <video width="600" controls> <source src="videos/yt5s.com-License Your Dog.mp4" type="video/mp4"> </video>
+    <p>Visit this <a href="https://kingcounty.gov/depts/regional-animal-services/license-your-pet/purchase-renew-license.aspx" target="blank">website</a> to licence your dog.</p>
+    <p>So header doesn't block information</p>
+
 </body>
 
 <footer>
