@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Park Cleanup</title>
+    <title>Park cleanup</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -20,9 +20,34 @@
         <li><a href="park.html"> Park Cleanup </a></li>
     </ul>
     <h1>Park Cleanup</h1>
-    <p><img class="fimage" src="images/park1.jpg" alt="man with King County logo"> Welcome to the website. Here, I will talk about how to volunteer for park cleanup within the King County area. </p>
+    <!--new feature: css image-resolution and inline css-->
+    <p><img class="fimage" style="image-resolution: 200%;" ; src="images/park1.jpg" alt="park cleanup man with King County logo"> Welcome to the website. Here, I will talk about how to help park cleanup within the King County area. </p>
     <hr>
-    <h3>Park cleanup in the King County area is important to mainting both a nice park and a nice ecosystem. </h3>
+    <h3>King county parks are struggling more than they have ever been over the pandemic. While they might not have suffered as much as other things during the pandemic, they have still received less funding, volunteering, and visiting. Due to the lack of
+        funding, volunteering is becoming more and more necessary to helping to maintain the park. </h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Two ways to volunteer for cleanup:</h2>
+    <p id="secretTime" style="display:block;"></p>
+    <!--js buttons-->
+    <button onclick="document.getElementById('secretTime').innerHTML='Weed Watchers: Help to find where weeds are growing in water. If they go undetected, they spread super easily and it is very hard to remove them if they spread. Since there are so many lakes, people like you can help by volunteering your time to help find these weeds early.'; document.getElementById('secretTime').style.display='block'">Weed Watchers</button>
+    <button onclick="document.getElementById('secretTime').style.display='none'">Hide information</button>
+    <br>
+    <p id="secretRaskc" style="display:block;"></p>
+    <button onclick="document.getElementById('secretRaskc').innerHTML='Lake Stewardship: Work to help the local government to collect data on the lake water quality. You would collect data on water temperature data and lake water level to help the government figure out how to help the environment. This way, you could help volunteer to make a community better without getting your hands dirty.'; document.getElementById('secretRaskc').style.display='block'">Lake Stewardship</button>
+    <button onclick="document.getElementById('secretRaskc').style.display='none'">Hide information</button>
+    <h2>Donating money:</h2>
+    <p>If you do not have the time to volunteer for the program, donating money is also a great way to get involved and help preserve these great public parks. Below is an organization, preserve.nature.org that would appreciate whatever money you have to
+        spare. They are a non-profit that aims to help communiites like King County</p>
+    <p>Donate to preserve.nature.org <a href="https://preserve.nature.org/page/80429/donate/1?ea.profile.id=32594&src=p_g.dfa.fd.x.dtd.nbr.X&en_txn1=p_g.dfa.fd.x.dtd.nbr.X&supporter.appealCode=AHOMQ200700W1SXX00&en_txn8=NewSch.ADPCGO2007PDNZNZZD01Z01-NZZZZ-DGAQ&gclid=Cj0KCQjwiNSLBhCPARIsAKNS4_dLKYs2dUbh12SQBlIFEMmHIVRT2saUi6uIjB3UYJJ9fZOJNTTSYQoaAtQuEALw_wcB&gclsrc=aw.ds"
+            target="blank"> here</a>.</p>
+    <p>So header doesn't block information</p>
+
 </body>
 
 <footer>
