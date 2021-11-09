@@ -1,0 +1,76 @@
+
+ body {
+  background-color: rgb(221, 226, 200);
+}
+
+h1{
+text-align: center;
+font-size: 95px;
+color:rgb(43, 195, 241)
+}
+
+h2{
+  text-align: center;
+  font-size: 35px;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2 {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:35px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.nav {
+  list-style-type: none;
+  background-color: rgb(221, 226, 200);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+} 
+  ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    padding: 8px 35px;
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+ul.nav li a:hover {
+    background-color: darkblue;
+    color: burlywood;
+}
+
+.active {
+    color: blue
+}
+.Winter{
+  grid-column: 1/ span 1;
+  grid-row: 1;
+  background-color: rgb(175, 84, 84);
+}
+.Summer{
+  grid-column: 2/ span 1;
+  grid-row: 1;
+  background-color: rgb(131, 22, 22);
+}
+.grid-item{
+  background-color: aqua;
+  text-align: center;
+  font-size: 30px; 
+  padding: 20px;
+}
