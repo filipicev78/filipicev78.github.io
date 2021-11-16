@@ -1,12 +1,44 @@
 
  body {
-  background-color: rgb(221, 226, 200);
+  background-color: rgb(240, 238, 210);
+}
+
+@import url("https://use.typekit.net/aag4iwk.css");
+
+
+h2{
+  font-family: futura-pt, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
 }
 
 h1{
 text-align: center;
 font-size: 95px;
-color:rgb(43, 195, 241)
+color:rgb(0, 195, 255);
+font-family: futura-pt-bold, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p{
+font-family: rooney-web, serif;
+
+font-weight: 500;
+
+font-style: normal;
+}
+.missiontext{
+  font-size: 30px;
+  padding-left: 6%;
+}
+.FrontText{
+  font-size: 30px;
+  padding-left: 5%;
+  padding-right:5%;
+
 }
 
 h2{
@@ -14,26 +46,59 @@ h2{
   font-size: 35px;
 }
 .centered {
+  
   position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 17.5%;
 }
+.program1 {
+  
+  position: absolute;
+  top: 40%;
+  left:28%;
+  
+}
+.mission1{
+  position: absolute;
+  top: 20%;
+  left: 31%;
+  
+}
+.more1{
+  position: absolute;
+  top: 33%;
+  left: 23%;
+}
+.coach1 {
+  
+  position: absolute;
+  top: 40%;
+  left: 12%;
+}
+.tourny1{
+  position: absolute;
+  top: 29%;
+  left: 23%;
+}
+
 .centered2 {
   position: absolute;
-  top: 75%;
-  left: 50%;
+  top: 130%;
+  left: 34%;
   transform: translate(-50%, -50%);
-  font-size:35px;
+  font-size:42px;
+  text-align: left;
+  
 }
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
+.Coachtext1{
+  font-size: 25px;
+  padding-top: 20px;
 }
+
+
 .nav {
   list-style-type: none;
-  background-color: rgb(221, 226, 200);
+  background-color: rgb(240, 238, 210);
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -58,19 +123,15 @@ ul.nav li a:hover {
 .active {
     color: blue
 }
-.Winter{
-  grid-column: 1/ span 1;
-  grid-row: 1;
-  background-color: rgb(175, 84, 84);
-}
-.Summer{
-  grid-column: 2/ span 1;
-  grid-row: 1;
-  background-color: rgb(131, 22, 22);
+.expect1{
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  background-color: rgb(0, 195, 255);
 }
 .grid-item{
   background-color: aqua;
   text-align: center;
   font-size: 30px; 
-  padding: 20px;
+  
 }
