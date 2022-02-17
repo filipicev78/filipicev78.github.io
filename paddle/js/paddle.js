@@ -19,6 +19,9 @@ let ballXSpeed = 3;
 let ballYSpeed = 3;
 let ballRadius = 20;
 
+let ImgWidth = 40;
+let ImgHeight = 40;
+
 function keyPressed(event) {
     let key = event.keyCode;
     keydownOutput.innerHTML = "key dpwn code: " + key;
@@ -55,6 +58,10 @@ function keyReleased(event) {
 
 function drawPlayer() {
     ctx.fillRect(playerX, playerY, playerWidth, playerHeight);
+}
+
+function drawImage() {
+    ctx.drawImage(emoji, ballX, ballY, ImgWidth, ImgHeight);
 }
 
 function paddleBallCollision() {
@@ -130,9 +137,10 @@ function refreshUI() {
     ctx.clearRect(0, 0, 500, 500);
     movePlayer();
     drawPlayer();
-    drawBall();
+
     moveBall();
     paddleBallCollision();
+    drawImage();
 
 }
 
